@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="{{asset('css/styles.css')}}" rel="stylesheet" />
+    
 </head>
 <body id="page-top">
 <!-- Navigation-->
@@ -38,7 +39,7 @@
 <section class="page-section portfolio" id="portfolio">
     <div class="container">
         <!-- Portfolio Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-5">Portfolio</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0 mt-5">Kategori Wisata</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
@@ -48,19 +49,19 @@
         <!-- Portfolio Grid Items-->
         <div class="row justify-content-center">
             <!-- Portfolio Item 1-->
-            <div class="col-md-6 col-lg-4 mb-5">
+            <div class="col-md-6 col-lg-4 mb-5 ">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p>Wisata Alam</p></div>
                     </div>
-                    <img class="img-fluid" src="{{asset('img/category/taman_mangrove.jpg')}}"  style="height:200px;width:100%" alt="" />
+                    <img class="img-fluid" src="{{asset('img/category/taman_mangrove.jpg')}}"  style="height:200px;width:100%;" alt="" />
                 </div>
             </div>
             <!-- Portfolio Item 2-->
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p>Wisata Taman</p></div>
                     </div>
                     <img class="img-fluid" src="{{asset('img/category/taman.jpg')}}"   style="height:200px;width:100%" alt="" />
                 </div>
@@ -69,7 +70,7 @@
             <div class="col-md-6 col-lg-4 mb-5">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p>Wisata Religi</p></div>
                     </div>
                     <img class="img-fluid" src="{{asset('img/category/taman_religi.jpg')}}" style="height:200px;width:100%" alt="" />
                 </div>
@@ -78,7 +79,7 @@
             <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p>Wisata Budaya</p></div>
                     </div>
                     <img class="img-fluid" src="{{asset('img/category/wisata_budaya.jpg')}}"  style="height:200px;width:100%" alt="" />
                 </div>
@@ -87,7 +88,7 @@
             <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p>Wisata Edukasi</p></div>
                     </div>
                     <img class="img-fluid" src="{{asset('img/category/wisata_edukasi.jpg')}}"  style="height:200px;width:100%" alt="" />
                 </div>
@@ -96,7 +97,7 @@
             <div class="col-md-6 col-lg-4">
                 <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
                     <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i><p>Wisata Pertanian</p></div>
                     </div>
                     <img class="img-fluid" src="{{asset('img/category/wisata_pertanian.jpg')}}" style="height:200px;width:100%"alt="" />
                 </div>
